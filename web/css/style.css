@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --white : white;
+}
+
+#container {
+    display: none;
+    flex-direction: row;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+#sidebar {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    width: 20vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 4vh;
+    height: 4vh;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.message {
+    margin-left: .6vh ;
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+      border: 1px solid #FFFFFF;
+    margin-right: 5px;
+    padding: .5vh ;
+    align-items: center;
+    font-style: normal;
+}
+
+
+.text {
+    color: var(--white);
+    font-size: 1vh;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#text {
+    margin-bottom: .6vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#text span{
+    font-size: 2vh;
+}
