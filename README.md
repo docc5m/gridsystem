@@ -35,6 +35,9 @@ TriggerEvent('gridsystem:registerMarker', {
   msg = 'Press ~INPUT_CONTEXT~ to do something',
   control = 'E',
   type = 20,
+  textureDict = "marker",
+  textureName = "textureName",
+  rotate = true,
   color = { r = 130, g = 120, b = 110 },
   action = function()
     print('This is executed when you press E in the marker')
