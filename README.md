@@ -6,6 +6,17 @@ Marker handling resource for FiveM
 This resource make it easy to handle markers in one single resource. Markers are registered within "chunks" and all the maths is done based on the chunk the player is in.
 It also has a permission system compatible with ESX job system, however you can easily edit the code to support other system/remove it.
 
+How to create the UI
+=============
+TriggerEvent("ToggleUI", toggle, logo, control, text)
+
+| Field Name   | Description                                     | Type   |
+|--------------|-------------------------------------------------|--------|
+| `toggle`     | If set to true, you will show the UI            | boolean |
+| `logo`       | Logo URL                                        | string |
+| `control`    | Control Hotkey (es. "E")                               | string |
+| `text`       | Showed text                                     | string |
+
 
 How to register a marker
 =============
